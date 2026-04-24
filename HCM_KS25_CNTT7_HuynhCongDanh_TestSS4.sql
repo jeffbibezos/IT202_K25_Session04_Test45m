@@ -40,3 +40,9 @@ DELETE FROM Products WHERE (price < 1000000);
 SELECT * FROM Products;
 
 SELECT * FROM Products WHERE (stock > 15);
+
+SELECT * FROM Products WHERE (price >= 1000000 and price <= 25000000);
+
+SELECT * FROM Products WHERE (product_name <> 'IPhone 15' and stock > 0);
+
+SELECT * FROM Products WHERE (category_id = 1 and price > 500000);
